@@ -1,8 +1,11 @@
 import React from 'react';
-import { CounterScreen } from './src/components/CounterScreen/CounterScreen';
+import { DimencioneScreen } from './src/screens/DimencioneScreen';
+import { SafeAreaView } from 'react-native';
 
 export const App = () => {
   return (<>
-    <CounterScreen/>
+  <SafeAreaView>
+    <DimencioneScreen/>
+    </SafeAreaView>
     </> );
 };
