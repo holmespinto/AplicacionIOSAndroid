@@ -1,12 +1,19 @@
-/* eslint-disable react-native/no-inline-styles */
+/* eslint-disable jsx-quotes */
 import React from 'react';
-import { TareaScreen } from './src/screens/TareaScreen';
-import { SafeAreaView } from 'react-native';
+import { CalculadoraScreen } from './src/screens/CalculadoraScreen';
+import { SafeAreaView, StatusBar, View } from 'react-native';
+import { styles } from './src/theme/ThemeApp';
 
 export const App = () => {
-  return (<>
-  <SafeAreaView style={{flex: 1,backgroundColor:'#28425B',}}>
-    <TareaScreen/>
+  return (
+    <SafeAreaView style={styles.container}>
+      <StatusBar
+      backgroundColor='black'
+      barStyle='light-content'
+      />
+    <View>
+      <CalculadoraScreen />
+    </View>
     </SafeAreaView>
-    </> );
+  );
 };
