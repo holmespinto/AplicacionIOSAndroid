@@ -36,8 +36,8 @@ const styles = StyleSheet.create({
     height:100,
     borderWidth:2,
     borderColor:'white',
-   // alignSelf:'center',
-    //top:-779,
+   alignSelf:'flex-end',
+    left:-50,
   },
   caja3: {
     //flex:1,
