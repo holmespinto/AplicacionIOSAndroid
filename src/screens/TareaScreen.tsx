@@ -16,9 +16,10 @@ const styles = StyleSheet.create({
     container:{
        flex: 1,
        backgroundColor:'#28425B',
-       flexDirection:'column',
+       flexDirection:'row-reverse',
        alignItems: 'center',
        justifyContent:'center',
+
     },
   caja1: {
     //flex:1,
@@ -36,9 +37,9 @@ const styles = StyleSheet.create({
     height:100,
     borderWidth:2,
     borderColor:'white',
-   alignSelf:'flex-end',
-    left:-50,
-    top:-100,
+   //alignSelf:'flex-end',
+   // left:-50,
+    top:50,
   },
   caja3: {
     //flex:1,
@@ -47,7 +48,7 @@ const styles = StyleSheet.create({
     height:100,
     borderWidth:2,
     borderColor:'white',
-    alignSelf:'center',
-    top:-100,
+   // alignSelf:'center',
+   // top:-100,
   },
 });
