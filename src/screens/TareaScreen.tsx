@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
     borderColor:'white',
    alignSelf:'flex-end',
     left:-50,
+    top:-100,
   },
   caja3: {
     //flex:1,
@@ -46,7 +47,7 @@ const styles = StyleSheet.create({
     height:100,
     borderWidth:2,
     borderColor:'white',
-    //alignSelf:'flex-start',
-    //top:-1545,
+    alignSelf:'center',
+    top:-100,
   },
 });
